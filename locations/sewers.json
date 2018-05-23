@@ -1,0 +1,72 @@
+{
+  "size_x": 5,
+  "size_y": 5,
+  "tiles": [
+    {
+      "coordinate_x": 0,
+      "coordinate_y": 0,
+      "tile_type": "StartingRoom",
+      "intro_text": "After partying all night you wake up in the sewers..."
+    },
+    {
+      "coordinate_x": 1,
+      "coordinate_y": 0,
+      "tile_type": "Enemy",
+      "intro_text": "Kids, don't do drugs!",
+      "Enemy": {
+        "name": "Wizzy",
+        "hp": 10,
+        "damage": 2
+      }
+    },
+    {
+      "coordinate_x": 0,
+      "coordinate_y": 1,
+      "tile_type": "Enemy",
+      "intro_text": "Ketosis mastery or die!",
+      "Enemy": {
+        "name": "Drunken Eduard",
+        "hp": 20,
+        "damage": 3
+      }
+    },
+    {
+      "coordinate_x": 0,
+      "coordinate_y": 3,
+      "tile_type": "Weapon",
+      "intro_text": "You think it's a bottle of vodka! Check your inventory!",
+      "Weapon": {
+        "name": "Call of Kthulhu",
+        "description": "This is a very interesting book",
+        "value": 3,
+        "damage": 6
+      }
+    },
+    {
+      "coordinate_x": 1,
+      "coordinate_y": 1,
+      "tile_type": "Enemy",
+      "intro_text": "I never asked for this",
+      "Enemy": {
+        "name": "Adam Jensen",
+        "hp": 25,
+        "damage": 1
+      }
+    },
+    {
+      "coordinate_x": 2,
+      "coordinate_y": 0,
+      "tile_type": "Gold",
+      "intro_text": "Yey! Some Gold!",
+      "Gold": {
+        "amount": 20
+      }
+    },
+    {
+      "coordinate_x": 4,
+      "coordinate_y": 4,
+      "tile_type": "ExitRoom",
+      "intro_text": "You leave the sewers victoriously!"
+    }
+  ]
+}
